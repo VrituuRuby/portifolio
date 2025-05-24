@@ -15,8 +15,6 @@ export function ChangingText() {
   const [width, setWidth] = useState(0);
   const spanRef = useRef<HTMLSpanElement>(null);
 
-  console.log(index);
-
   useEffect(() => {
     const id = setInterval(() => {
       setIndex((prev) => (prev + 1) % Texts.length);

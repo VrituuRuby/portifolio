@@ -21,12 +21,14 @@ export const Wrapper = styled.div`
   display: inline-block;
   transition: width 200ms ease;
   overflow: hidden;
+  line-height: 1.25;
 `;
 
 export const Text = styled.span`
   display: inline-block;
   animation: ${fade} 0.5s ease;
   white-space: nowrap;
+  line-height: 1.25;
 
   color: transparent;
 
