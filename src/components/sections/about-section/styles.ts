@@ -7,6 +7,7 @@ export const Container = styled.section`
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  gap: 3rem;
 `;
 
 export const Card = styled.div`
@@ -55,6 +56,7 @@ export const CardColumn = styled.div`
   flex-direction: column;
   gap: 0.5rem;
   max-width: 800px;
+  z-index: 10;
 `;
 
 export const CardRow = styled.div`

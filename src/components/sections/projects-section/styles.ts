@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 `;
 
 export const ProjectsContainer = styled.div`
@@ -9,6 +12,7 @@ export const ProjectsContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+  z-index: 10;
 
   @media screen and (max-width: 768px) {
     display: flex;

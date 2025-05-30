@@ -1,9 +1,23 @@
-import { Container, RadialGradient } from "./styles";
+import {
+  Container,
+  DecorContainer,
+  LineDecor,
+  LineGradient,
+  RadialGradient,
+  RadialGradientContainer,
+} from "./styles";
 
 export const SectionTitle = ({ children }: { children: string }) => {
   return (
     <Container>
-      <RadialGradient />
+      <DecorContainer>
+        <LineDecor>
+          <LineGradient />
+        </LineDecor>
+        <RadialGradientContainer>
+          <RadialGradient />
+        </RadialGradientContainer>
+      </DecorContainer>
       <h2>{children}</h2>
     </Container>
   );
